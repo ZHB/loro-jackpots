@@ -1,0 +1,30 @@
+{
+    "name": "zhb/loro-jackpots",
+    "description": "Bitfield flags manager/debugger",
+    "keywords": [
+        "LoRo",
+        "Loterie Romande",
+        "Jackpots"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Huck",
+            "email": "vincent.huck.pro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "jms/serializer": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhb\\LoRo\\": "src/LoRo"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
